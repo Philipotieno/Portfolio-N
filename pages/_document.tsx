@@ -11,7 +11,7 @@ class MyDocument extends Document {
             rel="stylesheet"
           />
         </Head>
-        <body>
+        <body className="from-green bg-gradient-to-r to-blue-400">
           <Main />
           <NextScript />
         </body>
