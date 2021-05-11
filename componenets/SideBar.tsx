@@ -11,7 +11,7 @@ const SideBar = () => {
         alt="Philip Otieno"
         className="mx-auto w-32 h-32 rounded-full"
       />
-      <h3 className="my-4 text-3xl font-medium tracking-wider">
+      <h3 className="font-kaushan my-4 text-3xl font-medium tracking-wider">
         <span>Philip</span>
         Otieno
       </h3>
