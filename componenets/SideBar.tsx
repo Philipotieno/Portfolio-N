@@ -12,7 +12,7 @@ const SideBar = () => {
         className="mx-auto w-32 h-32 rounded-full"
       />
       <h3 className="font-kaushan my-4 text-3xl font-medium tracking-wider">
-        <span className="text-green">Philip </span>
+        <span className="text-green">Philip</span>
         Otieno
       </h3>
       <p className="my-3 px-2 py-1 bg-gray-200 rounded-full">
@@ -46,7 +46,9 @@ const SideBar = () => {
         <p className="my-2">iamphilipotieno@gmail.com</p>
       </div>
       {/* Email Button */}
-      <button className="from-green my-2 py-2 w-8/12 text-white bg-gradient-to-r rounded-full to-blue-400">
+      <button className="from-green my-2 py-2 w-8/12 text-white bg-gradient-to-r rounded-full to-blue-400" 
+      onClick={()=>window.open('mailto:iamphilipotieno@gmail.com')}
+      >
         Email Me
       </button>
       <button className="from-green my-2 py-2 w-8/12 text-white bg-gradient-to-r rounded-full to-blue-400">
