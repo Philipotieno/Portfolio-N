@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
-import Link from 'next/link';
-import {useRouter} from 'next/router';
+import { useRouter } from 'next/router';
+import NavItem from './NavItem';
 
 const Navbar = () => {
   const [activeItem, setActiveItem] = useState<string>('');
@@ -15,27 +15,24 @@ const Navbar = () => {
     <div>
       <span className="font-bold text-green">{activeItem}</span>
       <div className="flex space-x-3 text-red-400 font-lg">
-        {activeItem !== 'About' && (
-          <Link href="/">
-            <a>
-              <span onClick={() => setActiveItem('About')}>About</span>
-            </a>
-          </Link>
-        )}
-        {activeItem !== 'Projects' && (
-          <Link href="/projects">
-            <a>
-              <span onClick={() => setActiveItem('Projects')}>Projects</span>
-            </a>
-          </Link>
-        )}
-        {activeItem !== 'Resume' && (
-          <Link href="/resume">
-            <a>
-              <span onClick={() => setActiveItem('Resume')}>Resume</span>
-            </a>
-          </Link>
-        )}
+        <NavItem
+          activeItem={activeItem}
+          setActiveItem={setActiveItem}
+          name={'About'}
+          route="/"
+        />
+        <NavItem
+          activeItem={activeItem}
+          setActiveItem={setActiveItem}
+          name={'Projects'}
+          route="/projects"
+        />
+        <NavItem
+          activeItem={activeItem}
+          setActiveItem={setActiveItem}
+          name={'Resume'}
+          route="/resume"
+        />
       </div>
     </div>
   );
