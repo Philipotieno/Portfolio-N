@@ -1,9 +1,8 @@
+import { services } from '../data';
 const index = () => {
-  return (
-    <div>
-      Project Page
-    </div>
-  )
-}
+  console.log(services);
+  
+  return <div>Project Page</div>;
+};
 
-export default index
+export default index;
