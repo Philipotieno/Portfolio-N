@@ -1,3 +1,6 @@
+import { languages, tools } from '../data';
+import Bar from '../componenets/Bar';
+
 const resume = () => {
   return (
     <div className="px-4">
@@ -21,6 +24,26 @@ const resume = () => {
         </div>
       </div>
       {/* Language & tools  */}
+      <div className="grid gap-6 md:grid-cols-2">
+        <div>
+          <h5 className="my-3 text-2xl font-bold">
+            Languages &amp; Frameworks
+          </h5>
+          <div className="my-2">
+            {languages.map((Language) => (
+              <Bar data={Language} key={Language.name} />
+            ))}
+          </div>
+        </div>
+        <div>
+          <h5 className="my-3 text-2xl font-bold">Tools &amp; Softwares</h5>
+          <div className="my-2">
+            {tools.map((tool) => (
+              <Bar data={tool} key={tool.name} />
+            ))}
+          </div>
+        </div>
+      </div>
     </div>
   );
 };
