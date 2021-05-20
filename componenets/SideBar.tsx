@@ -2,8 +2,13 @@
 import { AiFillGithub, AiFillLinkedin } from 'react-icons/ai';
 import { GoLocation } from 'react-icons/go';
 import { GiTie } from 'react-icons/gi';
+import { ThemeProvider, useTheme } from 'next-themes';
 
 const SideBar = () => {
+  const { theme, setTheme } = useTheme();
+  const changeTheme = () => {
+    setTheme(theme === 'light' ? 'dark' : 'light');
+  };
   return (
     <div>
       <img
@@ -52,8 +57,11 @@ const SideBar = () => {
       >
         Email Me
       </button>
-      <button className="w-8/12 py-2 my-2 text-white rounded-full bg-gradient-to-r focus:outline-none from-green to-blue-400">
-        Toggle Theme
+      <button
+        onClick={changeTheme}
+        className="w-8/12 py-2 my-2 text-white rounded-full bg-gradient-to-r focus:outline-none from-green to-blue-400"
+      >
+        Change Theme
       </button>
     </div>
   );
