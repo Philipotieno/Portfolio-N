@@ -1,27 +1,29 @@
 import { languages, tools } from '../data';
 import Bar from '../componenets/Bar';
+import { motion } from 'framer-motion';
+import { fadeInUp } from '../animations';
 
 const resume = () => {
   return (
     <div className="px-4">
-      {/* Education & Exp */}
+      {/* Education & Experience */}
       <div className="grid gap-6 md:grid-cols-2">
-        <div>
+        <motion.div variants={fadeInUp} initial="initial" animate="animate">
           <h5 className="my-3 text-2xl font-bold">Education</h5>
           <div>
             <h5 className="my-2 text-xl font-bold">BSc With Edu</h5>
             <p className="font-semibold">Karatina University(2012-2016)</p>
             <p className="my-3">Relevant Courses Procedural Programming</p>
           </div>
-        </div>
-        <div>
+        </motion.div>
+        <motion.div variants={fadeInUp} initial="initial" animate="animate">
           <h5 className="my-3 text-2xl font-bold">Experience</h5>
           <div>
             <h5 className="my-2 text-xl font-bold">Andela Kenya</h5>
             <p className="font-semibold">Software Engineer</p>
             <p className="my-3">Relevant Courses Procedural Programming</p>
           </div>
-        </div>
+        </motion.div>
       </div>
       {/* Language & tools  */}
       <div className="grid gap-6 md:grid-cols-2">
