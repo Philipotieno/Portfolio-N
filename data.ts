@@ -63,7 +63,7 @@ export const languages: ISkill[] = [
   {
     Icon: BsCircleFill,
     name: 'Flutter',
-    level: '30$',
+    level: '30%',
   },
   {
     Icon: BsCircleFill,
@@ -86,22 +86,22 @@ export const tools: ISkill[] = [
   {
     Icon: BsCircleFill,
     name: 'Figma',
-    level: '85',
+    level: '85%',
   },
   {
     Icon: BsCircleFill,
     name: 'Photoshop',
-    level: '45',
+    level: '45%',
   },
   {
     Icon: BsCircleFill,
     name: 'Illustrator',
-    level: '60',
+    level: '60%',
   },
   {
     Icon: BsCircleFill,
     name: 'Framer',
-    level: '45',
+    level: '45%',
   },
 ];
 
