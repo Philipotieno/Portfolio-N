@@ -3,6 +3,8 @@ import ProjectsCard from '../componenets/ProjectsCard';
 import ProjectsNavbar from '../componenets/ProjectsNavbar';
 import { useState } from 'react';
 import { Category } from '../type';
+import { motion } from 'framer-motion';
+import { fadeInUp, stagger } from '../animations';
 
 const Projects = () => {
   const [projects, setProjects] = useState(projectsData);
@@ -26,13 +28,22 @@ const Projects = () => {
         handleFilterCategory={handleFilterCategory}
         active={active}
       />
-      <div className="relative grid grid-cols-12 gap-4 my-3 bg-gray-200 rounded-lg dark:bg-dark-200">
+      <motion.div
+        className="relative grid grid-cols-12 gap-4 my-3 "
+        variants={stagger}
+        initial="initial"
+        animate="animate"
+      >
         {projects.map((project) => (
-          <div className="col-span-12 sm:col-span-6 lg:col-span-4">
+          <motion.div
+            className="col-span-12 p-2 bg-gray-200 rounded-lg sm:col-span-6 lg:col-span-4 dark:bg-dark-200"
+            variants={fadeInUp}
+            key={project.name}
+          >
             <ProjectsCard project={project} key={project.name} />
-          </div>
+          </motion.div>
         ))}
-      </div>
+      </motion.div>
     </div>
   );
 };
