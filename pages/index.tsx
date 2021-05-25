@@ -3,10 +3,17 @@ import ServiceCard from '../componenets/ServiceCard';
 import { services } from '../data';
 import { motion } from 'framer-motion';
 import { fadeInUp, stagger } from '../animations';
+import { routeAnimation } from '../animations';
 
-const index = () => {
+const About: NextPage = () => {
   return (
-    <div className="flex flex-col flex-grow px-6 pt-1">
+    <motion.div
+      className="flex flex-col flex-grow px-6 pt-1"
+      variants={routeAnimation}
+      initial="initial"
+      animate="animate"
+      exit="exit"
+    >
       <h5 className="my-3 font-medium">
         Hi, I'm Philip Otieno, full stack engineer with experience in web
         development using Python(Django/Flask), Node and React😊. I found myself
@@ -37,8 +44,8 @@ const index = () => {
           ))}
         </motion.div>
       </div>
-    </div>
+    </motion.div>
   );
 };
 
-export default index;
+export default About;
