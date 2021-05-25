@@ -5,7 +5,7 @@ import { motion } from 'framer-motion';
 import { fadeInUp, stagger } from '../animations';
 import { routeAnimation } from '../animations';
 
-const About: NextPage = () => {
+const About = () => {
   return (
     <motion.div
       className="flex flex-col flex-grow px-6 pt-1"
