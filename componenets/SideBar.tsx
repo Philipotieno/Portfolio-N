@@ -30,10 +30,12 @@ const SideBar = () => {
       </p>
       <a
         className="flex items-center justify-center px-2 py-1 my-3 bg-gray-200 rounded-full dark:bg-dark-200"
-        href=""
-        download="name"
+        href="https://docs.google.com/document/d/190Leb-UNJKlbz8OVrc62C0ywYEZ3AmObtgv5D2kH0Ag/edit"
+        // download="Philip_Otieno_Resume.pdf"
+        target="_blank"
       >
-        <GiTie className="w-6, h-6" /> Download Resume
+        <GiTie className="w-6, h-6" />
+        <span>Download Resume</span>
       </a>
       {/* Social Icons */}
       <div className="flex justify-around mx-auto my-5 w-9/2 text-green md:w-full">
