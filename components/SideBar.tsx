@@ -29,8 +29,8 @@ const SideBar = () => {
         Software Engineer
       </p>
       <a
-        className="flex items-center justify-center px-2 py-1 my-3 bg-gray-200 rounded-full dark:bg-dark-200"
-        href="https://docs.google.com/document/d/190Leb-UNJKlbz8OVrc62C0ywYEZ3AmObtgv5D2kH0Ag/edit"
+        className="flex items-center justify-center px-2 py-1 my-3 rounded-full hover:bg-gray-200 dark:bg-dark-200"
+        href="https://drive.google.com/file/d/1ny-vk-QdVqL_bFKa427DwznmM-KBdJHQ/view?usp=sharing"
         // download="Philip_Otieno_Resume.pdf"
         target="_blank"
       >
