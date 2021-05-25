@@ -1,5 +1,5 @@
+import { FunctionComponent } from 'react';
 import { IconType } from 'react-icons';
-
 export interface IService {
   title: string;
   about: string;
@@ -20,7 +20,7 @@ export interface IProject {
   github_url: string;
   category: Category[];
   key_techs: string[];
-  id: number,
+  id: number;
 }
 
 export type Category = 'react' | 'node' | 'django' | 'express' | 'postgres';
