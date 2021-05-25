@@ -1,6 +1,6 @@
 import { projects as projectsData } from '../data';
-import ProjectsCard from '../componenets/ProjectsCard';
-import ProjectsNavbar from '../componenets/ProjectsNavbar';
+import ProjectsCard from '../components/ProjectsCard';
+import ProjectsNavbar from '../components/ProjectsNavbar';
 import { useState } from 'react';
 import { Category } from '../type';
 import { motion } from 'framer-motion';

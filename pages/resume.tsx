@@ -1,5 +1,5 @@
 import { languages, tools } from '../data';
-import Bar from '../componenets/Bar';
+import Bar from '../components/Bar';
 import { motion } from 'framer-motion';
 import { fadeInUp, routeAnimation } from '../animations';
 

@@ -1,5 +1,5 @@
 // import { GetServerSideProps } from 'next';
-import ServiceCard from '../componenets/ServiceCard';
+import ServiceCard from '../components/ServiceCard';
 import { services } from '../data';
 import { motion } from 'framer-motion';
 import { fadeInUp, stagger } from '../animations';
