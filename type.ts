@@ -20,6 +20,7 @@ export interface IProject {
   github_url: string;
   category: Category[];
   key_techs: string[];
+  id: number,
 }
 
 export type Category = 'react' | 'node' | 'django' | 'express' | 'postgres';

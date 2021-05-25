@@ -10,6 +10,8 @@ const Projects = () => {
   const [projects, setProjects] = useState(projectsData);
   const [active, setActive] = useState('all');
 
+  const [showDetail, setShowDetail] = useState<number | null>(null);
+
   const handleFilterCategory = (category: Category | 'all') => {
     if (category === 'all') {
       setProjects(projectsData);
@@ -47,7 +49,11 @@ const Projects = () => {
             variants={fadeInUp}
             key={project.name}
           >
-            <ProjectsCard project={project} key={project.name} />
+            <ProjectsCard
+              project={project}
+              showDetail={showDetail}
+              setShowDetail={setShowDetail}
+            />
           </motion.div>
         ))}
       </motion.div>
