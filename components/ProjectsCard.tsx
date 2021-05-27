@@ -63,6 +63,7 @@ const ProjectsCard: FunctionComponent<{
               <a
                 href={deployed_url}
                 className="flex items-center px-4 space-x-3 text-lg bg-gray-200 dark:bg-dark-200"
+                target="_blank"
               >
                 <AiFillProject /> <span>Project</span>
               </a>

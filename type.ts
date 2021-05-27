@@ -23,4 +23,4 @@ export interface IProject {
   id: number;
 }
 
-export type Category = 'react' | 'node' | 'django' | 'express' | 'postgres';
+export type Category = 'react' | 'django' | 'postgres';

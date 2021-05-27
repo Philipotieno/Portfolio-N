@@ -23,9 +23,12 @@ const Resume = () => {
         <motion.div variants={fadeInUp} initial="initial" animate="animate">
           <h5 className="my-3 text-2xl font-bold">Education</h5>
           <div>
-            <h5 className="my-2 text-xl font-bold">BSc With Edu</h5>
+            <h5 className="my-2 text-xl font-bold">BSc With Education</h5>
             <p className="font-semibold">Karatina University(2012-2016)</p>
-            <p className="my-3">Relevant Courses Procedural Programming</p>
+            <p className="my-3">
+              Relevant Coursework:{' '}
+              <b>Procedural Programming, Discrete Mathematics, C</b>
+            </p>
           </div>
         </motion.div>
         <motion.div variants={fadeInUp} initial="initial" animate="animate">
@@ -33,7 +36,14 @@ const Resume = () => {
           <div>
             <h5 className="my-2 text-xl font-bold">Andela Kenya</h5>
             <p className="font-semibold">Software Engineer</p>
-            <p className="my-3">Relevant Courses Procedural Programming</p>
+            <p className="my-3">
+              <li>
+                Migrated the front end to digital ocean by creating Docker
+                images and enabling CI/CD with Gitlab.
+              </li>
+              <li>API Development</li>
+              <li>Testing Systems</li>
+            </p>
           </div>
         </motion.div>
       </div>

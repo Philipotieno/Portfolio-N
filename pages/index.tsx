@@ -21,7 +21,7 @@ const About = () => {
       </Head>
       <h5 className="my-3 font-medium">
         Hi, I'm Philip Otieno, full stack engineer with experience in web
-        development using Python(Django/Flask), Node and React😊. I found myself
+        development using Python(Django/Flask), and React😊. I found myself
         taking a new career path as a web developer with the possibility of
         changing people around me. I love to help the community, I eat blue
         berries and sometimes I go to the gym 🏋! Follow me on social networks
