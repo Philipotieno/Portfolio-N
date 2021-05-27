@@ -1,5 +1,5 @@
 // import React from 'react'
-import { AiFillGithub, AiFillLinkedin } from 'react-icons/ai';
+import { AiFillGithub, AiFillInstagram, AiFillLinkedin } from 'react-icons/ai';
 import { GoLocation } from 'react-icons/go';
 import { GiTie } from 'react-icons/gi';
 import { ThemeProvider, useTheme } from 'next-themes';
@@ -31,7 +31,7 @@ const SideBar = () => {
       <a
         className="flex items-center justify-center px-2 py-1 my-3 rounded-full hover:bg-gray-200 dark:bg-dark-200"
         href="https://drive.google.com/file/d/1ny-vk-QdVqL_bFKa427DwznmM-KBdJHQ/view?usp=sharing"
-        // download="Philip_Otieno_Resume.pdf" 
+        // download="Philip_Otieno_Resume.pdf"
         target="_blank"
       >
         <GiTie className="w-6, h-6" />
@@ -39,11 +39,14 @@ const SideBar = () => {
       </a>
       {/* Social Icons */}
       <div className="flex justify-around mx-auto my-5 w-9/2 text-green md:w-full">
-        <a href="">
-          <AiFillGithub className="w-8 h-8 cursor-pointer" />
+        <a href="https://github.com/Philipotieno">
+          <AiFillGithub className="w-8 h-8 cursor-pointer" aria-label="Github" />
         </a>
-        <a href="">
-          <AiFillLinkedin className="w-8 h-8 cursor-pointer" />
+        <a href="https://www.linkedin.com/in/philipotieno/">
+          <AiFillLinkedin className="w-8 h-8 cursor-pointer" aria-label="LinkedIn" />
+        </a>
+        <a href="https://www.instagram.com/oti.dev/">
+          <AiFillInstagram className="w-8 h-8 cursor-pointer" aria-label="Instagram" />
         </a>
       </div>
       {/* Addresss */}
