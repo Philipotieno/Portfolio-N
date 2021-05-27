@@ -4,7 +4,7 @@ import { services } from '../data';
 import { motion } from 'framer-motion';
 import { fadeInUp, stagger } from '../animations';
 import { routeAnimation } from '../animations';
-
+import Head from 'next/head';
 const About = () => {
   return (
     <motion.div
@@ -14,6 +14,11 @@ const About = () => {
       animate="animate"
       exit="exit"
     >
+      <Head>
+        <title>
+          Software Engineer | Web Developer | Portfolio | Philip Otieno
+        </title>
+      </Head>
       <h5 className="my-3 font-medium">
         Hi, I'm Philip Otieno, full stack engineer with experience in web
         development using Python(Django/Flask), Node and React😊. I found myself

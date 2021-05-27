@@ -12,11 +12,11 @@ class MyDocument extends Document {
           />
           <meta
             name="description"
-            content="MERN stack developer looking for a job"
+            content="Kenya Front-End developer looking for a job"
           />
           <meta
             name="keywords"
-            content="Full Stack Web Developer, Freelancer ,MERN developer"
+            content="Full Stack Web Developer Kenya, Freelancer ,Website | Webapp developer"
           />
         </Head>
         <body className="from-green bg-gradient-to-r to-blue-400 dark:from-dark-500 dark:to-dark-700 dark:text-white">

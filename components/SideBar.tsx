@@ -31,7 +31,7 @@ const SideBar = () => {
       <a
         className="flex items-center justify-center px-2 py-1 my-3 rounded-full hover:bg-gray-200 dark:bg-dark-200"
         href="https://drive.google.com/file/d/1ny-vk-QdVqL_bFKa427DwznmM-KBdJHQ/view?usp=sharing"
-        // download="Philip_Otieno_Resume.pdf"
+        // download="Philip_Otieno_Resume.pdf" 
         target="_blank"
       >
         <GiTie className="w-6, h-6" />
