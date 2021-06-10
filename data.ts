@@ -135,8 +135,7 @@ export const projects: IProject[] = [
     deployed_url: 'https://visualization-in-react.vercel.app/',
     github_url: 'https://github.com/Philipotieno/Visualization-In-React',
     category: ['react'],
-    description:
-      'App that User can use to visualize csv data',
+    description: 'App that User can use to visualize csv data',
     key_techs: ['React', 'CSS', 'Flask'],
   },
 
@@ -172,6 +171,16 @@ export const projects: IProject[] = [
     description:
       'Create a community of like minded authors to foster inspiration and innovation by leveraging the modern web.',
     key_techs: ['React', 'Django Rest FrameWork'],
+  },
+  {
+    id: 7,
+    name: 'Space X',
+    image_path: '/images/spacex.png',
+    deployed_url: 'https://spacex-api-ten.vercel.app/',
+    github_url: 'https://github.com/Philipotieno/Spacex-API',
+    category: ['react'],
+    description: 'Light weight replica of the SpaceX website',
+    key_techs: ['React', 'GraphQL', 'Apollo'],
   },
   // {
   //   id: 7,
