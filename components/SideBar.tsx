@@ -13,7 +13,7 @@ const SideBar = () => {
   return (
     <div>
       <Image
-        src="https://philipotieno.github.io/photos/phill2.JPG"
+        src="https://github.com/Philipotieno/Portfolio-N/blob/main/public/images/dp.jpeg?raw=true"
         alt="Philip Otieno"
         className="mx-auto rounded-full "
         width="128px"

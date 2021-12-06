@@ -51,7 +51,7 @@ export const services: IService[] = [
 export const languages: ISkill[] = [
   {
     Icon: BsCircleFill,
-    name: 'Python',
+    name: 'Python(Django/PostgreSQL)',
     level: '79%',
   },
   {
@@ -61,31 +61,25 @@ export const languages: ISkill[] = [
   },
   {
     Icon: BsCircleFill,
-    name: 'Django Rest Framework',
-    level: '69%',
-  },
-  {
-    Icon: BsCircleFill,
     name: 'React',
     level: '63%',
   },
-
   {
     Icon: BsCircleFill,
     name: 'TailwindCSS',
     level: '50%',
-  },
-  {
-    Icon: BsCircleFill,
-    name: 'Flutter',
-    level: '30%',
-  },
+  }
+  // {
+  //   Icon: BsCircleFill,
+  //   name: 'Flutter',
+  //   level: '30%',
+  // },
 ];
 
 export const tools: ISkill[] = [
   {
     Icon: BsCircleFill,
-    name: 'Git',
+    name: 'Version Control(Git)',
     level: '80%',
   },
   {
@@ -95,7 +89,7 @@ export const tools: ISkill[] = [
   },
   {
     Icon: BsCircleFill,
-    name: 'Figama',
+    name: 'Figma',
     level: '60%',
   },
   {

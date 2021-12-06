@@ -26,8 +26,8 @@ const Resume = () => {
             <h5 className="my-2 text-xl font-bold">BSc With Education</h5>
             <p className="font-semibold">Karatina University(2012-2016)</p>
             <p className="my-3">
-              Relevant Coursework:{' '}
-              <b>Procedural Programming, Discrete Mathematics, C</b>
+              Relevant Course Work:{' '}
+              <b>Procedural Programming, Discrete Mathematics</b>
             </p>
           </div>
         </motion.div>
